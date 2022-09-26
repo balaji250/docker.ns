@@ -26,11 +26,10 @@ jobs:
 
     - name: grant execute permission for gradlew
       uses: chmod +x gradflew
-      
     - name: build with gradle
-      version: 3.7
+      run: ./gradle build
+      
          
-
   publish:
 
       needs: build
