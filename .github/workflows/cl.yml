@@ -28,8 +28,7 @@ jobs:
       uses: chmod +x gradflew
       
     - name: build with gradle
-      run: ./gradle build
-    version: 3.7
+      version: 3.7
          
 
   publish:
